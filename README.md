@@ -5,9 +5,10 @@ Notas importantes:
 
 Parte servidor:
 
-1-Una vez descomprido elasticsearch-2.4.0, setear en el archivo config/elasticsearch.yml la ip por donde escuchara los pedidos del cliente:
+1-Una vez descomprido elasticsearch-2.4.0, setear en el archivo config/elasticsearch.yml la ip por donde escuchara los pedidos del cliente y donde guardara los datos:
 
 network.host:   miip (recordar quitar el #)
+path.data: /path a los datos
 
 Luego el servidor se inicia con bin/elasticksearch.bat
 
